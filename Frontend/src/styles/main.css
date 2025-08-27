@@ -1,0 +1,76 @@
+/* -------------------------------
+   Global CSS cho TFT Team Builder
+----------------------------------*/
+
+/* Reset cơ bản */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font và background cơ bản */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Link style */
+a {
+  color: #1d4ed8; /* xanh dương */
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons chung */
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+/* Một số class tiện ích nếu không dùng Tailwind */
+.text-center { text-align: center; }
+.flex { display: flex; }
+.justify-center { justify-content: center; }
+.items-center { align-items: center; }
+.mt-2 { margin-top: 0.5rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.p-2 { padding: 0.5rem; }
+.rounded { border-radius: 6px; }
+.bg-blue { background-color: #3b82f6; color: #fff; }
+.bg-blue:hover { background-color: #2563eb; }
+.bg-green { background-color: #22c55e; color: #fff; }
+.bg-green:hover { background-color: #16a34a; }
+
+/* Các component chính (tạm) */
+nav {
+  background-color: #111827;
+  color: white;
+  padding: 12px 24px;
+}
+
+nav a {
+  margin-left: 12px;
+  margin-right: 12px;
+  color: white;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+footer {
+  background-color: #111827;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  margin-top: 40px;
+}
